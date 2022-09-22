@@ -7,7 +7,7 @@ using System.Xml.XPath;
 
 namespace Lab2
 {
-     abstract class Vehicle
+    abstract class Vehicle
     {
         private double xcord;
         private double ycord;
@@ -20,7 +20,10 @@ namespace Lab2
         public int Price { get => price; set => price = value; }
         public double Speed { get => speed; set => speed = value; }
         public int YearOfManufact { get => yearOfManufact; set => yearOfManufact = value; }
-        
+
+        public abstract void ShowStats();
+
+
     }
     class Plane : Vehicle
     {
@@ -30,7 +33,7 @@ namespace Lab2
         public double Height { get => height; set => height = value; }
         public int Passengers { get => passengers; set => passengers = value; }
 
-        public Plane (double xcord, double ycord, int price, double speed, int year, double height, int passengers)
+        public Plane(double xcord, double ycord, int price, double speed, int year, double height, int passengers)
         {
             Xcord = xcord;
             Ycord = ycord;
@@ -41,13 +44,22 @@ namespace Lab2
             Passengers = passengers;
         }
 
-        
+        public override void ShowStats()
+        {
+            Console.WriteLine($"Plane coordinates are:{Xcord} {Ycord}");
+            Console.WriteLine($"Plane price is {Price}");
+            Console.WriteLine($"Plane height is {Height}");
+            Console.WriteLine($"Plane speed is {Speed}");
+            Console.WriteLine($"Plane year of manufacturing is {YearOfManufact}");
+            Console.WriteLine($"Plane has {Passengers} passengers");
+            Console.WriteLine();
+        }
+
+
     }
     class Car : Vehicle
     {
-       
-
-        public Car (double xcord, double ycord, int price, double speed, int year)
+        public Car(double xcord, double ycord, int price, double speed, int year)
         {
             Xcord = xcord;
             Ycord = ycord;
@@ -55,11 +67,20 @@ namespace Lab2
             Speed = speed;
             YearOfManufact = year;
         }
+
+        public override void ShowStats()
+        {
+            Console.WriteLine($"Car coordinates are:{Xcord} {Ycord}");
+            Console.WriteLine($"Car price is {Price}");
+            Console.WriteLine($"Car speed is {Speed}");
+            Console.WriteLine($"Car year of manufacturing is {YearOfManufact}");
+            Console.WriteLine();
+        }
     }
     class Ship : Vehicle
     {
         private int passengers;
-        private string homeport;
+        private string homeport = "";
 
         public int Passengers { get => passengers; set => passengers = value; }
         public string Homeport { get => homeport; set => homeport = value; }
@@ -73,6 +94,17 @@ namespace Lab2
             YearOfManufact = year;
             Passengers = passengers;
             Homeport = homeport;
+        }
+
+        public override void ShowStats()
+        {
+            Console.WriteLine($"Ship coordinates are:{Xcord} {Ycord}");
+            Console.WriteLine($"Ship price is {Price}");
+            Console.WriteLine($"Ship speed is {Speed}");
+            Console.WriteLine($"Ship year of manufacturing is {YearOfManufact}");
+            Console.WriteLine($"Ship has {Passengers} passengers");
+            Console.WriteLine($"Ship homeport is {Homeport}");
+            Console.WriteLine();
         }
     }
 }

@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dragonias\\.nuget\\packages\\": {},
+    "C:\\Users\\m_mis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dragonias\\Downloads\\Lab1\\Lab1\\Lab1.csproj",
+      "projectUniqueName": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
       "projectName": "Lab1",
-      "projectPath": "C:\\Users\\Dragonias\\Downloads\\Lab1\\Lab1\\Lab1.csproj",
-      "packagesPath": "C:\\Users\\Dragonias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dragonias\\Downloads\\Lab1\\Lab1\\obj\\",
+      "projectPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
+      "packagesPath": "C:\\Users\\m_mis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dragonias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m_mis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

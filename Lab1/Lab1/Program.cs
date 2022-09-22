@@ -22,6 +22,8 @@ namespace Lab1
             //Figure f1 = new Figure("rectum", points);
             //Console.WriteLine(f1.GetPerimeter());
 
+            
+
 
         }
     }
