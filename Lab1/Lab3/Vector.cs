@@ -43,7 +43,7 @@ namespace Lab3
         }
         public static bool operator <(Vector v1, Vector v2)
         {
-            return v1.GetLength()<v2.GetLength();
+            return v1.GetLength() < v2.GetLength();
         }
 
         public static bool operator >(Vector v1, Vector v2)
