@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj": {}
+    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj": {
+    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj",
         "projectName": "Lab1.Tests",
-        "projectPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj",
+        "projectPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1.Tests\\Lab1.Tests.csproj",
         "packagesPath": "C:\\Users\\m_mis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1.Tests\\obj\\",
+        "outputPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
-                "projectPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj"
+              "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
+                "projectPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
+        "projectPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\m_mis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\obj\\",
+        "outputPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

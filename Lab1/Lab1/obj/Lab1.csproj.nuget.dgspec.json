@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
+        "projectPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\m_mis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_mis\\Source\\Repos\\Labs2022\\Lab1\\Lab1\\obj\\",
+        "outputPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
