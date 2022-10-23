@@ -38,17 +38,21 @@
             foreach (var o in cars) o.Show();
             Console.WriteLine();
 
-            Array.Sort(cars, new CarComparerByName());
-            foreach (var o in cars) o.Show();
-            Console.WriteLine();
+            //Array.Sort(cars, new CarComparerByName());
+            //foreach (var o in cars) o.Show();
+            //Console.WriteLine();
 
-            Array.Sort(cars, new CarComparerByProdYear());
-            foreach (var o in cars) o.Show();
-            Console.WriteLine();
+            //Array.Sort(cars, new CarComparerByProdYear());
+            //foreach (var o in cars) o.Show();
+            //Console.WriteLine();
 
-            Array.Sort(cars, new CarComparerByMaxSpeed());
-            foreach (var o in cars) o.Show();
-            Console.WriteLine();
+            //Array.Sort(cars, new CarComparerByMaxSpeed());
+            //foreach (var o in cars) o.Show();
+            //Console.WriteLine();
+
+            foreach (var o in cars)
+                o.Show();
+
 
 
         }

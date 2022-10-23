@@ -16,7 +16,6 @@ namespace Lab4
         public int ProductionYear { get => productionYear; set => productionYear = value; }
         public int MaxSpeed { get => maxSpeed; set => maxSpeed = value; }
 
-
         public void Show()
         {
             Console.WriteLine($"Name: {name}, Prod. Year: {productionYear}, Max Speed: {maxSpeed}");        
@@ -44,5 +43,8 @@ namespace Lab4
             return x.MaxSpeed - y.MaxSpeed;
         }
     }
+
+
+
 
 }
