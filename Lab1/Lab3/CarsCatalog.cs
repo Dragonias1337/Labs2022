@@ -24,6 +24,7 @@ namespace Lab3
             Soses = new List<sos>();
             Soses.Add(new sos());
             Soses.Add(new sos());
+
         }
 
         internal List<sos> Soses { get => soses; set => soses = value; }
@@ -31,6 +32,8 @@ namespace Lab3
         public string this[int index]
         {
             get { return soses[index].Name; }
+
+
         }
     }
 }
