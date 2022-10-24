@@ -35,7 +35,12 @@
             }
             };
 
-            foreach (var o in cars) o.Show();
+            foreach (var o in cars)
+                o.Show();
+            Console.WriteLine();
+
+            var a = new CarCatalog(cars);
+            foreach (Car o in a) o.Show();
             Console.WriteLine();
 
             //Array.Sort(cars, new CarComparerByName());
@@ -50,8 +55,7 @@
             //foreach (var o in cars) o.Show();
             //Console.WriteLine();
 
-            foreach (var o in cars)
-                o.Show();
+            
 
 
 

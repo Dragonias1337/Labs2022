@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab4
 {
-    internal class Car
+    class Car
     {
         private string name;
         private int productionYear;

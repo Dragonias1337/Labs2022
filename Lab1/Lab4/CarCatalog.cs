@@ -17,34 +17,51 @@ namespace Lab4
             cars = a;
         }
 
+        public int Length
+        {
+            get
+            {
+                return cars.Length;
+            }
+        }
+
         public IEnumerator GetEnumerator()
         {
-            return cars.GetEnumerator();
+            return new CarsEnumerator(this);
+            //return new CarsEnumerator(this);
+            //return new CarsEnumerator(this);
+            //return new CarsEnumerator(this);
         }
+
+        public Car this[int x]
+        {
+            get { return cars[x]; }
+        }
+
     }
 
     class CarsEnumerator : IEnumerator
     {
-        private Car[] cars;
+        private CarCatalog catalog;
         int position = -1;
 
-        public CarsEnumerator(Car[] _cars)
+        public CarsEnumerator(CarCatalog carCatalog)
         {
-            this.cars = _cars;
+            catalog = carCatalog;
         }
 
         object IEnumerator.Current
         {
             get 
             {
-                if(position == -1 || position >= cars.Length) throw new IndexOutOfRangeException();
-                else return cars[cars.Length - 1 - position];
+                if(position == -1 || position >= catalog.Length) throw new IndexOutOfRangeException();
+                else return catalog[catalog.Length - 1 - position];
             }
         }
 
         bool IEnumerator.MoveNext()
         {
-            if (position < cars.Length - 1)
+            if (position < catalog.Length - 1)
             {
                 position++;
                 return true;
