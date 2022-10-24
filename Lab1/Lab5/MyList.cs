@@ -25,6 +25,8 @@ namespace Lab5
             data = newData;
         }
 
+        //можно добавить и удаление
+
         public int Count()
         {
             return data.Length;
