@@ -29,9 +29,7 @@ namespace Lab4
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     matrix[i, j] = rand.NextDouble() * (max - min) + min;
-                }
-
-            
+                }            
         }
 
         public void Show()
