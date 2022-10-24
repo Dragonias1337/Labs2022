@@ -10,18 +10,17 @@ namespace Lab4
     internal class CarCatalog:IEnumerable
     {
         private Car[] cars;       
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return new CarsEnumerator(cars);
-        }
+             
 
         public CarCatalog(Car[] a)
         {
             cars = a;
         }
 
-
+        public IEnumerator GetEnumerator()
+        {
+            return cars.GetEnumerator();
+        }
     }
 
     class CarsEnumerator : IEnumerator
