@@ -1,0 +1,12 @@
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\bin\Debug\net6.0\Lab7Library.deps.json
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\bin\Debug\net6.0\Lab7Library.dll
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\bin\Debug\net6.0\Lab7Library.pdb
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.csproj.AssemblyReference.cache
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.AssemblyInfoInputs.cache
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.AssemblyInfo.cs
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.csproj.CoreCompileInputs.cache
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.dll
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\refint\Lab7Library.dll
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\Lab7Library.pdb
+C:\Users\m_mis\source\repos\Labs2022\Lab1\Lab7Library\obj\Debug\net6.0\ref\Lab7Library.dll

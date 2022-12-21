@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Lab7Library.Cow>
+  <Country>Russia</Country>
+  <Name>Ivan</Name>
+  <HideFromOtherAnimals>False</HideFromOtherAnimals>
+  <WhatAnimal>Herbivores</WhatAnimal>
+</Lab7Library.Cow>
