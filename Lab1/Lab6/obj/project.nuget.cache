@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jLzRcd2H1I78CFX7OJtePlp6KsTD8ZfMbuVnroXBe1kGSJti4I0YkN358tR0VWONixuQWoryifTvQJohwbPaZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab6\\Lab6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m_mis\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_mis\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.0\\system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_mis\\.nuget\\packages\\system.security.cryptography.xml\\7.0.0\\system.security.cryptography.xml.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
