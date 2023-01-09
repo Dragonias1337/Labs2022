@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Diagnostics.Tracing;
 
 namespace Lab2
@@ -29,11 +30,33 @@ namespace Lab2
 
             VehicleYard.ShowVehicleStats(vehicles);
 
+
+            Console.WriteLine("enter password");
+            string password = Console.ReadLine();
+            if (password == "12345")
+            {
+                ProDocumentWorker worker = new ProDocumentWorker();
+                worker.DocumentOpen();
+                worker.EditDocument();
+                worker.SaveDocument();
+            }
+            else if (password == "1234567")
+            {
+                ExpertDocumentWorker worker = new ExpertDocumentWorker();
+                worker.DocumentOpen();
+                worker.EditDocument();
+                worker.SaveDocument();
+            }
+            else
+            {
+                DocumentWorker worker = new DocumentWorker();
+                worker.DocumentOpen();
+                worker.EditDocument();
+                worker.SaveDocument();
+            }
             
-            new DocumentWorker();
-            new ProDocumentWorker();
-            new ExpertDocumentWorker();
-            
+
+
         }
     }
 }

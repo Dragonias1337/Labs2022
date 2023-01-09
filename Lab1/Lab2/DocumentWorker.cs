@@ -28,10 +28,7 @@ namespace Lab2
     }
     class ProDocumentWorker : DocumentWorker
     {
-        private string password;
-        private string truePassword = "12345abc";
-
-        public string Password { get => password; set => password = value; }
+       
 
         public override void EditDocument()
         {
