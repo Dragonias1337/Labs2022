@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab3
 {
-    class sos
+    class car
     {
-        private string name = "huesos";
+        private string name = "car01";
 
         public string Name
             { get { return name; } }
@@ -17,21 +17,21 @@ namespace Lab3
 
     internal class CarsCatalog
     {
-        private List<sos> soses;
+        private List<car> cars;
 
         public CarsCatalog()
         {
-            Soses = new List<sos>();
-            Soses.Add(new sos());
-            Soses.Add(new sos());
+            cars = new List<car>();
+            cars.Add(new car());
+            cars.Add(new car());
 
         }
 
-        internal List<sos> Soses { get => soses; set => soses = value; }
+        internal List<car> Cars { get => cars; set => cars = value; }
 
         public string this[int index]
         {
-            get { return soses[index].Name; }
+            get { return cars[index].Name; }
 
 
         }
