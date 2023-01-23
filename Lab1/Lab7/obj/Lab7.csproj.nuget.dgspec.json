@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab7\\Lab7.csproj": {}
+    "C:\\Labs\\Labs3sem\\Labs2022\\Lab1\\Lab7\\Lab7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab7\\Lab7.csproj": {
+    "C:\\Labs\\Labs3sem\\Labs2022\\Lab1\\Lab7\\Lab7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab7\\Lab7.csproj",
+        "projectUniqueName": "C:\\Labs\\Labs3sem\\Labs2022\\Lab1\\Lab7\\Lab7.csproj",
         "projectName": "Lab7",
-        "projectPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab7\\Lab7.csproj",
-        "packagesPath": "C:\\Users\\m_mis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_mis\\source\\repos\\Labs2022\\Lab1\\Lab7\\obj\\",
+        "projectPath": "C:\\Labs\\Labs3sem\\Labs2022\\Lab1\\Lab7\\Lab7.csproj",
+        "packagesPath": "C:\\Users\\Dragonias\\.nuget\\packages\\",
+        "outputPath": "C:\\Labs\\Labs3sem\\Labs2022\\Lab1\\Lab7\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m_mis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dragonias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
