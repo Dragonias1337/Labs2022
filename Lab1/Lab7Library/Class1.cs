@@ -63,4 +63,46 @@ namespace Lab7Library
         }
     }
 
+    [AttributeForBykov]
+    public class Lion : Animal
+    {
+        public Lion()
+        {
+            WhatAnimal = eClassificationAnimal.Carnivores;
+            HideFromOtherAnimals = false;
+        }
+
+        public override eFavoriteFood GetFavoriteFood()
+        {
+            return eFavoriteFood.Meat;
+        }
+
+        public override void SayHello()
+        {
+            Console.WriteLine("Oraora!");
+        }
+    }
+
+    [AttributeForBykov]
+    public class Pig : Animal
+    {
+        public Pig()
+        {
+            WhatAnimal = eClassificationAnimal.Omnivores;
+            HideFromOtherAnimals = true;
+        }
+
+        public override eFavoriteFood GetFavoriteFood()
+        {
+            return eFavoriteFood.Everything;
+        }
+
+        public override void SayHello()
+        {
+            Console.WriteLine("Slava Ukraine!");
+        }
+    }
+
+
+
 }

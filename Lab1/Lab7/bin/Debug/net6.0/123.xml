@@ -1,7 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Lab7Library.Cow>
-  <Country>Russia</Country>
-  <Name>Ivan</Name>
-  <HideFromOtherAnimals>False</HideFromOtherAnimals>
-  <WhatAnimal>Herbivores</WhatAnimal>
-</Lab7Library.Cow>
+<Lab7>
+  <Lab7Library.Cow>
+    <Country>Russia</Country>
+    <Name>Ivan</Name>
+    <HideFromOtherAnimals>False</HideFromOtherAnimals>
+    <WhatAnimal>Herbivores</WhatAnimal>
+  </Lab7Library.Cow>
+  <Lab7Library.Lion>
+    <Country>Dag05</Country>
+    <Name>Magomed</Name>
+    <HideFromOtherAnimals>False</HideFromOtherAnimals>
+    <WhatAnimal>Carnivores</WhatAnimal>
+  </Lab7Library.Lion>
+  <Lab7Library.Pig>
+    <Country>Ukraine</Country>
+    <Name>Mikola</Name>
+    <HideFromOtherAnimals>True</HideFromOtherAnimals>
+    <WhatAnimal>Omnivores</WhatAnimal>
+  </Lab7Library.Pig>
+</Lab7>
